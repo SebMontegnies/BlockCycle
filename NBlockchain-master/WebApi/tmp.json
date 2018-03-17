@@ -1,0 +1,96 @@
+﻿{
+  "_id": { "$oid": "5aacf83980880937b8c728dd" },
+  "Statistics": {
+    "BlockTime": 250,
+    "TimeStamp": { "$date": 1521281577199 }
+  },
+  "Header": {
+    "BlockId": {
+      "$binary": "AAAApm4y9WxHDZAjK+H/ic21wRi7AWsCEM43dQ94auw=",
+      "$type": "00"
+    },
+    "Height": 946,
+    "Difficulty": 768,
+    "Status": 1,
+    "Timestamp": 636568819771997873,
+    "Version": 1,
+    "Nonce": 6130951,
+    "PreviousBlock": {
+      "$binary": "AAAA5cuCTEOAiaqfq6x3KyURFIBz94uD+YCZAZHpiHs=",
+      "$type": "00"
+    },
+    "MerkelRoot": {
+      "$binary": "n8JhEz31BrywaC0MmcuFmjpoPWkVb/0DE6ecjHT7QLQ=",
+      "$type": "00"
+    }
+  },
+  "Transactions": {
+    "TransactionId": {
+      "$binary": "779R50voN/7dcZf2tWelXm6LwAu70JKpmCYQ5n9X3o0=",
+      "$type": "00"
+    },
+    "Instructions": [
+      {
+        "_id": {
+          "$binary": "IjeAZ5eCIFBz+a3hWPS6skNZZ2J2d+TSaFmbtoGsiNI=",
+          "$type": "00"
+        },
+        "Entity": {
+          "_t": "ListInstruction",
+          "InstructionId": {
+            "$binary": "IjeAZ5eCIFBz+a3hWPS6skNZZ2J2d+TSaFmbtoGsiNI=",
+            "$type": "00"
+          },
+          "OriginKey": {
+            "$binary": "fUdV4LgFi0yqDaRczZkk/g==",
+            "$type": "00"
+          },
+          "PublicKey": {
+            "$binary": "BPSqhZDvZSb03dbv/GwlXPMmrtgpC6VwICSHCDv6/IUv1NOqSvKPaCTA1Xzyw0IuQ5TM794ddc0Y6sTzFULpVxE=",
+            "$type": "00"
+          },
+          "Signature": {
+            "$binary": "MEYCIQCBlYx0D29z4GKmfz0FNwYflWCPUMlCRFbMyTMD/W1eBAIhAP4SvhM2ESSbovsGLCgVP60n6OIiYUh5eWgDRhMF6iIA",
+            "$type": "00"
+          },
+          "Course": {
+            "BCycles": null,
+            "PublicKey": null,
+            "PrivateKey": null,
+            "Name": null,
+            "Description": null,
+            "VideoUrl": null
+          }
+        },
+        "Statistics": {
+          "PublicKeyHash": {
+            "$binary": "Da6mcyuWuBOSQx96lu0kI1yDf4c=",
+            "$type": "00"
+          }
+        }
+      }
+    ]
+  },
+  "MerkleRootNode": {
+    "Value": {
+      "$binary": "n8JhEz31BrywaC0MmcuFmjpoPWkVb/0DE6ecjHT7QLQ=",
+      "$type": "00"
+    },
+    "Left": {
+      "Value": {
+        "$binary": "Tv7gwal5wvDSZl2IYiwFANK5h1VgwG8MNj670ct95Fs=",
+        "$type": "00"
+      },
+      "Left": null,
+      "Right": null
+    },
+    "Right": {
+      "Value": {
+        "$binary": "yvOH28VIPJFSfy3unQ3ZXMLKsOPzURm7YFIVA1CGtYs=",
+        "$type": "00"
+      },
+      "Left": null,
+      "Right": null
+    }
+  }
+}

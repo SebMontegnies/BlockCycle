@@ -1,0 +1,58 @@
+﻿@font-face {
+    font-family: 'blockcycle-icons';
+    src: url('/fonts/icons-blockcycle.eot');
+    src: url('/fonts/icons-blockcycle.eot?#iefix') format('embedded-opentype'), url('/fonts/icons-blockcycle.woff') format('woff'), url('fonts/icons-blockcycle.ttf') format('truetype'), url('/fonts/icons-blockcycle.svg?#icons-blockcycle') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class*='ei-']:before,
+[class*='ei-'] span:before {
+    display: inline-block;
+    font-family: 'blockcycle-icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ei-bank:before {
+    content: '\e900';
+}
+.ei-barometre:before {
+    content: '\e901';
+}
+.ei-co:before {
+    content: '\e902';
+}
+.ei-mountain:before {
+    content: '\e903';
+}
+.ei-sun:before {
+    content: '\e904';
+}
+.ei-wind:before {
+    content: '\e905';
+}
+.ei-wind-direction:before {
+    content: '\e906';
+}
+.ei-metre:before {
+    content: '\e9a7';
+}
+.ei-road:before {
+    content: '\e9b1';
+}
+.ei-droplet:before {
+    content: '\e90b';
+}
+.ei-cloudy {
+    content: '\e907';
+}
+.ei-loup {
+    content: '\e986';
+}

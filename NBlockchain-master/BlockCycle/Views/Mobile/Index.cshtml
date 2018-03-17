@@ -1,0 +1,22 @@
+﻿@model BlockCycle.UI.ViewModel.MobileVM
+
+<h2>Course</h2>
+
+@if (Model == null || Model.IdCourse == Guid.Empty)
+{
+    @Html.ActionLink("Créer un parcours", "CreateCourse", null, new { onclick = "someFunction();" })
+}
+else
+{
+    @Html.ActionLink("Arreter le parcours", "StopCourse", new { idCourse = Model.IdCourse });
+}
+
+@Html.Partial("_Position")
+
+@if (Model != null && Model.IdCourse == Guid.Empty)
+{
+    <script>
+        sendLocation(@Model.IdCourse);
+    </script>
+}
+

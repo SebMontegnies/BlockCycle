@@ -1,0 +1,68 @@
+﻿sep=;
+created;16-03-2018 13:38:51
+DESCRIPTION;VALUE;UNIT
+1_date;17-03-2018;
+1_weather;Pluie et neige faible;
+1_desc;Ciel très nuageux à couvert accompagné de précipitations, généralement faibles, qui peuvent prendre un caractère hivernal (pluie neige mêlées ou neige). Il existe encore une forte incertitude quant à la quantité ainsi que le type de précipitations.;
+1_icon;43;
+1_max_range;1 à 3;°C
+1_min_range;-4 à -2;°C
+1_rainwater;1 à 3;cm
+1_wind_direction_text;NE;
+1_wind_direction_tooltip;Nord-Est;
+1_wind_force;20 à 25;km/h
+1_wind_gusts;Rafales: 50 km/h;
+1_moon_icon;A;
+1_moon_text;Premier croissant;
+2_date;18-03-2018;
+2_weather;Faibles chutes de neige;
+2_desc;Ciel très nuageux à couvert avec un risque de quelques faibles chutes de neige en première partie de la journée.;
+2_icon;25;
+2_max_range;-1 à 1;°C
+2_min_range;-6 à -4;°C
+2_rainwater;0 à 1;cm
+2_wind_direction_text;NE;
+2_wind_direction_tooltip;Nord-Est;
+2_wind_force;20 à 30;km/h
+2_wind_gusts;Rafales: 50 à 55 km/h;
+2_moon_icon;B;
+2_moon_text;Premier croissant;
+3_date;19-03-2018;
+3_weather;Peu nuageux;
+3_desc;Peu nuageux et ensoleillé.;
+3_icon;03;
+3_max_range;0 à 2;°C
+3_min_range;-9 à -7;°C
+3_rainwater;0;l/m²
+3_wind_direction_text;NE;
+3_wind_direction_tooltip;Nord-Est;
+3_wind_force;15 à 25;km/h
+3_wind_gusts;;
+3_moon_icon;C;
+3_moon_text;Premier croissant;
+4_date;20-03-2018;
+4_weather;Nuageux;
+4_desc;Peu nuageux à nuageux et globalement sec.;
+4_icon;04;
+4_max_range;3 à 5;°C
+4_min_range;-7 à -5;°C
+4_rainwater;0;l/m²
+4_wind_direction_text;Nord;
+4_wind_direction_tooltip;Nord;
+4_wind_force;15 à 25;km/h
+4_wind_gusts;;
+4_moon_icon;D;
+4_moon_text;Premier croissant;
+5_date;21-03-2018;
+5_weather;Nuageux;
+5_desc;Variablement nuageux et sec.;
+5_icon;04;
+5_max_range;3 à 5;°C
+5_min_range;-5 à -3;°C
+5_rainwater;0;l/m²
+5_wind_direction_text;NO;
+5_wind_direction_tooltip;Nord-Ouest;
+5_wind_force;5 à 10;km/h
+5_wind_gusts;;
+5_moon_icon;E;
+5_moon_text;Premier croissant;

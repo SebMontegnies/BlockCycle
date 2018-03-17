@@ -1,0 +1,54 @@
+﻿@model BlockCycle.UI.ViewModel.OpenDataVM
+
+@{
+    ViewBag.Title = "Home Page";
+}
+<div>
+    <div id="video-background-container">
+        <video id="video-background" autoplay loop>
+            <source src="~/video/velo.mp4" type="video/mp4" />
+        </video>
+    </div>
+    <div id="video-overlay"></div>
+    <ul class="nav ">
+        <li class="ei-barometre"> 1200 MB</li>
+        <li class="ei-sun"> 7 °C</li>
+        <li class="ei-wind-direction"> NE</li>
+        <li class="ei-wind"> 5Km/h</li>
+        <li class="ei-droplet"> 2mm</li>
+        <li class="ei-co"> 150ppm</li>
+    </ul>
+    @Html.Partial("_Partie1")
+    @Html.Partial("_Partie2")
+
+    <div class="blockchain">
+        @Html.Partial("_Ant")
+    </div>
+    
+</div>
+
+@*description route : @Model.meteoJour.DescriptionRoute*@
+<br/>
+@*@foreach (var item in Model.MeteoPrevision)
+{
+    @item.Date.ToShortDateString()       @item.ForceVent;
+    <br/>
+}
+
+<br/>
+@foreach (var item in Model.AirQualitySensors)
+{
+    @($"{item.GpsX} / {item.GpsY} : {item.Temperature}")
+}
+
+<br/>
+@foreach (var item in Model.Musees)
+{
+    @item.Nom <br/>
+}*@
+
+@*<script>
+    $(function() {
+        getBikeInfo();
+    });
+</script>*@

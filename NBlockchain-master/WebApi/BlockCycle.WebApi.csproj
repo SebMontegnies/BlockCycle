@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.0.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.4.4" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="1.1.0" />
+    <PackageReference Include="LiteDB" Version="3.1.4" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Routing" Version="2.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="2.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="2.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="1.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="1.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="1.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlockCycle.AntPlus\BlockCycle.AntPlus.csproj" />
+    <ProjectReference Include="..\ClassLibrary1\BlockCycle.Model.csproj" />
+    <ProjectReference Include="..\NBlockchain\NBlockchain.csproj" />
+    <ProjectReference Include="..\Providers\NBlockchain.MongoDB\NBlockchain.MongoDB.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ANT_NET">
+      <HintPath>..\BlockCycle.AntPlus\ANT_NET.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+  </ItemGroup>
+
+</Project>

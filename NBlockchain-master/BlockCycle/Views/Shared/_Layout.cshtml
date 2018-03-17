@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mon application ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+</head>
+<body>
+    @*<div id="video-background-container">
+        <video id="video-background" autoplay loop>
+            <source src="~/video/video.mp4" type="video/mp4" />
+        </video>
+    </div>*@
+    @*<div id="video-overlay"></div>
+    <ul class="nav ">
+        <li class="ei-barometre"> 1200 MB</li>
+        <li class="ei-sun"> 7 °C</li>
+        <li class="ei-wind-direction"> NE</li>
+        <li class="ei-wind"> 5Km/h</li>
+        <li class="ei-droplet"> 2mm</li>
+        <li class="ei-co"> 10ppm</li>
+    </ul>*@
+
+        @RenderBody()
+
+        <footer>
+            @*<p>&copy; @DateTime.Now.Year - BlockCycle Team</p>*@
+           
+        </footer>
+    </div>
+
+    
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
